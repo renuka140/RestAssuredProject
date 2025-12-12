@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestAssuredProject.RestAssuredProject.Httprequest">
+      <class name="RestAssuredProject.RestAssuredProject.WaysToCreatePOSTUsingExistingJSONFile">
         <methods>
-          <include name="createUser"/>
-          <include name="updateUser"/>
+          <include name="testpostusingexistingJsonfile"/>
         </methods>
-      </class> <!-- RestAssuredProject.RestAssuredProject.Httprequest -->
+      </class> <!-- RestAssuredProject.RestAssuredProject.WaysToCreatePOSTUsingExistingJSONFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

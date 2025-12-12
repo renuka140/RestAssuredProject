@@ -7,9 +7,12 @@ import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
-@Test(priority=1)
-public class WaysToCreatePOST
+
+public class WaysToCreatePOSTUsingHashMap
 {
+	
+	
+	@Test(priority=1)
 	public void postTestUsingHashMap()
 	{
 		
@@ -38,6 +41,8 @@ public class WaysToCreatePOST
 	  .log().all();
 		
    }
+	
+	
 	@Test(priority=2)
 	void delete()
 	{
